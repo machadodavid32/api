@@ -1,0 +1,12 @@
+Para começarmos, vamos criar uma ambiente virtual. Após a criação de um subdiretório chamado api
+dentro do diretorio api_udemi, digitar no terminal (dentro da pasta api)
+
+ python -m venv minhavenv
+
+instalar fast api e uvicorn:
+pip install fastapi uvicorn
+
+obs: uvicorn é um servidor que serve para executar comandos em alta performance
+
+instalar as bibliotecas necessárias
+pip freeze > requirements.txt  
